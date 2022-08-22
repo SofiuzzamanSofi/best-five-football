@@ -30,6 +30,7 @@ function selectP(element) {
 
     // array er length 
     const playerLenthhh = playerArray.length;
+
     // create an objct 
     const playerObject = {
         no: playerLenthhh + 1,
