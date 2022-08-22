@@ -13,7 +13,6 @@ function textInputt(oldInputt, newInputt) {
     oldInputttt.innerText = newInputt
 }
 
-
 function totalCosts() {
     const playerExpensesCost = tagStringToNumber('player-expenses')
     const managerExpensesCost = tagStringToNumber('manager-expenses')
@@ -27,11 +26,9 @@ function totalCosts() {
 const calculate = document.getElementById('calculate');
 calculate.addEventListener('click', function () {
 
-
     const playerNumber = tagStringToNumber('player-select')
 
     const playerExpensess = 1000 * playerNumber;
-
 
     textInputt('player-expenses', playerExpensess)
 
