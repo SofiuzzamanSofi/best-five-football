@@ -7,10 +7,10 @@ const tableBody = document.getElementById('table');
 // nam bosanor jonno array declar korlam 
 const playerArray = [];
 
-
 function playerItems(playerA) {
 
     tableBody.innerHTML = "";
+
     for (let index = 0; index < playerA.length; index++) {
         const item = playerA[index];
         const playersNamess = item.playerNameH1
